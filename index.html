@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock paper siccors </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="playerScore">0</span>:<span id="skynetScore">0</span>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="choices">
+            <div data-playermove="0">
+                <img src="./rock.png" alt="">
+            </div>
+
+            <div data-playermove="1">
+                <img src="./paper.png" alt="">
+            </div>
+
+            <div data-playermove="2">
+                <img src="./scissors.png" alt="">
+            </div>
+
+        </div>
+
+        <button onclick=" location.reload()" type="submit" id="restart-message">Restart The Game</button>
+
+
+    </div>
+
+
+    <script src="zoo.js"></script>
+</body>
+
+</html>
