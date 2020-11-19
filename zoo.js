@@ -1,5 +1,5 @@
-const moves = ["Rock", "Paper", "Scissors"],
-    messages = ["You won!", "Skynet won", "It's a draw!"], // [Player, skynet, draw]
+const moves = ["Rock ", "Paper ", "Scissors "],
+    messages = ["You won! ✨", "Skynet won 🧨", "It's a draw! 🎃"], // [Player, skynet, draw]
     score = [0, 0, 0], // [PL, skynet draw]
     appel = sel => document.querySelector(sel),
     appel_result = appel("#result"),
