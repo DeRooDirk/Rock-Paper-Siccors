@@ -6,7 +6,6 @@ const moves = ["Rock ", "Paper ", "Scissors "],
     appel_playerScore = appel("#playerScore"),
     appel_skynetScore = appel("#skynetScore");
 
-
 function game() {
 
     const player = +this.dataset.playermove; // Get dataset value as integer
