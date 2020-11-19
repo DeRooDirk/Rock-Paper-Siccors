@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,21 +6,22 @@
 }
 
 body {
-    background-color: #24272E;
-    font-family: avenir;
+    background-color: rgb(36, 39, 46);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
-    color: whitesmoke;
+    color: rgb(235, 229, 229);
     margin: 50px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-shadow: 1px -1px 5px rgba(255, 242, 247, 0.5);
 }
 
 .container {
@@ -27,13 +29,7 @@ h1 {
     background-color: rgb(114, 113, 113);
     border: 1px solid black;
     border-radius: 15px;
-    box-shadow: -2px 2px 15px 5px rgba(136, 141, 148, 0.5);
-}
-
-button {
-    padding: 1em;
-    margin: 50px 0;
-    ;
+    box-shadow: -2px 2px 5px 3px rgba(136, 141, 148, 0.5);
 }
 
 .score-board {
@@ -95,4 +91,21 @@ button {
 img {
     height: 100px;
     width: 100px;
+}
+
+button {
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1em;
+    margin: 50px 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    border: 1px solid rgb(26, 25, 25);
+}
+
+button:focus {
+    background-color: rgb(128, 66, 66);
+    color: rgb(240, 230, 230);
 }
