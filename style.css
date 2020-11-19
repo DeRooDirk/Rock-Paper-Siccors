@@ -12,24 +12,22 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
+    flex-direction: column;
 }
 
-header {
-    background: white;
-    padding: 20px;
-}
-
-header>h1 {
-    color: #24272E;
-    text-align: center;
+h1 {
+    color: whitesmoke;
+    margin: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .container {
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(114, 113, 113);
     border: 1px solid black;
     border-radius: 15px;
-    ;
+    box-shadow: -2px 2px 15px 5px rgba(136, 141, 148, 0.5);
 }
 
 button {
@@ -91,7 +89,7 @@ button {
 
 [data-playermove]:hover {
     cursor: pointer;
-    background: darkblue;
+    background: rgba(0, 0, 139, 0.432);
 }
 
 img {
